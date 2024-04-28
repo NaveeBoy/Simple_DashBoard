@@ -5,6 +5,9 @@ import { AiFillHome,AiFillHeart } from "react-icons/ai";
 import { BiRestaurant } from "react-icons/bi";
 import { BsBookmarkCheckFill } from "react-icons/bs";
 
+//map image ==>
+import mapImage from './../../Assests/map.jpg';
+
 const SideMenu = () => {
   return (
     <div className='bg-sideMenuBg relative h-[100%] basis-20 p-4'>
@@ -43,8 +46,10 @@ const SideMenu = () => {
         <span className='text-textColor'> Favourites</span>
         </li>
 
-        
-
+        {/* Side Menu Map Div */}
+        <div className='mt-5 h-[14rem] w-full rounded-xl overflow-hidden'>
+          <img src={mapImage} alt="Map Image" className='object-cover h-[100%]' />
+        </div>
 
         
       </div>
