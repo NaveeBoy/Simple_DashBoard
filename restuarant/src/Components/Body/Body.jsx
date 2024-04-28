@@ -231,7 +231,7 @@ const Body = () => {
               <h1 className="text-[26px] text-titleColor font-bold">New Restaurants</h1>
               <span className="text-[16px] opacity-70 "><strong>9 restaurants,</strong>  have been opened up in town</span>
             </div>
-            <button className="flrx align-center gap-2 cursor-pointer font-semibold px-4 rounded-[5px] hover:bg-[#55545e] hover:text-bodyBg transition-all">
+            <button className="flex align-center gap-2 cursor-pointer font-semibold px-4 rounded-[5px] hover:bg-[#55545e] hover:text-bodyBg transition-all">
            View All <BsArrowRight className="text-[20px]" />
           </button>
         </div>
