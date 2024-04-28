@@ -1,5 +1,6 @@
 import React from 'react'
 import { GiHamburger } from "react-icons/gi";
+import adminImage from './../../Assests/user.png'
 
 const SideMenu = () => {
   return (
@@ -12,7 +13,7 @@ const SideMenu = () => {
 
       {/* User Div */}
       <div className='flex items-center justify-center text-[white] flex-col mt-[3rem] admin '>
-        <img src="" alt="Admin-Image"  className='h-[80px] w-[80px] border-red-200 border-[4px] object-cover rounded-full'/>
+        <img src={adminImage} alt="Admin-Image"  className='h-[80px] w-[80px] border-red-200 border-[4px] object-cover rounded-full'/>
         <span className='opacity-70 mt-2 text-gray-400'>Welcome,</span>
         <h3 className='font-bold text-textColor'>Anna Lindsey</h3>
       </div>
