@@ -1,0 +1,14 @@
+import React from 'react'
+import SideMenu from './SideMenu/SideMenu'
+import Body from './Body/Body'
+
+const Container = () => {
+  return (
+    <div className='flex h-[pvh] items-center justify-center w-[85vw] my-10 rounded-xl overflow-hidden bg-[blue]'>
+      <SideMenu/>
+      <Body/>
+    </div>
+  )
+}
+
+export default Container
